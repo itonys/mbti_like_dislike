@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="format-detection" content="telephone-no" />
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>MBTI : ㅈㅇㅅㄹ</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Japanese & Korean & Traditional Chinese -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css: components -->
+    <link rel="stylesheet" href="css/set.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/search-banner.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/container.css" />
+    <link rel="stylesheet" href="css/list.css" />
+    <link rel="stylesheet" href="css/breadcrumb.css" />
+    <link rel="stylesheet" href="css/detail.css" />
+    <link rel="stylesheet" href="css/comment.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/loading-bar.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header__left">
+        <h1>
+          <a href=""><img src="img/logo.svg" class="logo" alt="ㅈㅇㅅㄹ" /></a>
+        </h1>
+      </div>
+      <div class="header__right">
+        <div class="language">
+          <i class="icon-global"></i>
+          <span class="lang">日本語</span>
+          <i class="icon-arrow-down"></i>
+        </div>
+
+        <!-- language select pulldown : display:none -->
+        <div class="lang-pulldown">
+          <ul class="pulldown">
+            <li class="pulldown-list">
+              <span class="pulldown-text">日本語</span>
+            </li>
+            <li class="pulldown-list">
+              <span class="pulldown-text">한국어</span>
+            </li>
+            <li class="pulldown-list">
+              <span class="pulldown-text">English</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- nav -->
+    <nav>
+      <ul class="nav">
+        <li><a href="">トップ</a></li>
+        <li><a href="">性格ランキング</a></li>
+        <li><a href="">急上昇</a></li>
+        <li><a href="">MBTI</a></li>
+      </ul>
+    </nav>
+
+    <div class="breadcrumb">
+      <div class="breadcrumb__menu">
+        <a href="">トップ</a><i class="icon-arrow-right"></i>
+        <a href="">軽油ページ</a><i class="icon-arrow-right"></i>
+        <span class="now">個別ページ</span>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="detail-warp">
+        <div class="detail">
+          <div class="detail__left">
+            <div class="profile-img">
+              <img src="img/profile/sample1.jpg" alt="" />
+              <img src="img/profile/sample2.jpg" alt="" />
+            </div>
+            <div class="choice-area">
+              <h3>「<span>菊池風磨</span>」の性格はどう？</h3>
+              <div class="choice-result">
+                <div class="loading-container">
+                  <!-- ratio--{number %} if <= 15 hidden text-->
+                  <div class="loading-bar left-bar ratio--77">
+                    <span class="persent-num">良い 77%</span>
+                  </div>
+                  <!-- ratio--{number %} if <= 15 hidden text-->
+                  <div class="loading-bar right-bar ratio--23">
+                    <span class="persent-num">悪い 23%</span>
+                  </div>
+                </div>
+              </div>
+              <p class="subtxt">
+                性格が良い：<span class="like-num">7000</span> 票 (<span
+                  class="like-num"
+                  >77%</span
+                >
+                ) / 性格が悪い：<span class="dislike-num">3000</span>票 (<span
+                  class="dislike-num"
+                  >23%</span
+                >)
+              </p>
+
+              <div class="sns-area">
+                <div class="share">
+                  <a href="" class="sns-line">Line</a>
+                  <a href="" class="sns-x">X</a>
+                  <a href="" class="sns-facebook">Facebook</a>
+                  <a href="" class="copy-url">
+                    <i class="icon-copy"></i>URLをコピーしてシェアする
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="rank-result">
+              <h3>性格ランキング</h3>
+              <dl class="rank-result__info">
+                <dt>性格が良いランキング</dt>
+                <dd>総合：<span>1</span>位</dd>
+                <dd>俳優：<span>2</span>位</dd>
+                <dd>Sexy Zone：<span>1</span>位</dd>
+              </dl>
+              <dl class="rank-result__info">
+                <dt>性格が悪いランキング</dt>
+                <dd>総合：<span>23</span>位</dd>
+                <dd>俳優：<span>12</span>位</dd>
+                <dd>Sexy Zone：<span>35</span>位</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="detail__right">
+            <div class="profile-info">
+              <dl>
+                <dt class="p-name">菊池風磨 (Micky)</dt>
+                <dd class="p-birth">
+                  1996年5月5<span><i>/</i>日本</span>
+                </dd>
+                <dd class="p-sex">男性</dd>
+                <dd class="p-mbti">INTJ 建築家</dd>
+                <dd class="p-blood">
+                  AB型<span><i>/</i></span
+                  >おうし座
+                </dd>
+              </dl>
+            </div>
+            <div class="check-mbti">
+              <div class="check-mbti__help">
+                <h3>「<span>菊池風磨</span>」のMBTIは？</h3>
+                <div class="helper">
+                  <img src="img/help.svg" alt="" />
+                  <span class="helper-tooltip">
+                    MBTIについては、この<a href="" target="_blank">リンク</a
+                    >を参考してください。
+                  </span>
+                </div>
+              </div>
+              <div class="choice-mbti">
+                <div class="mbti-result mbti-set-1">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-1 ratio--70"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>INTJ 建築家 : <span class="mbti-num">304</span></span>
+                    <i class="rank-1 animate-zoom-in"></i>
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-1">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-1 ratio--30"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>INTP 論理学 : <span class="mbti-num">120</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-1">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-1 ratio--20"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ENTJ 指揮者 : <span class="mbti-num">54</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-1">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-1 ratio--10"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ENTP 討論者 : <span class="mbti-num">32</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-2">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-2 ratio--30"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>INFJ 提唱者 : <span class="mbti-num">14</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-2">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-2 ratio--50"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>INFP 仲介者 : <span class="mbti-num">201</span></span>
+                    <i class="rank-2 animate-zoom-in"></i>
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-2">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-2 ratio--10"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ENFJ 主人公 : <span class="mbti-num">10</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-2">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-2 ratio--22"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ENFP 運動家 : <span class="mbti-num">22</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-3">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-3 ratio--17"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ISTJ 管理者 : <span class="mbti-num">17</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-3">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-3 ratio--40"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ISFJ 擁護者 : <span class="mbti-num">184</span></span>
+                    <i class="rank-3 animate-zoom-in"></i>
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-3">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-3 ratio--7"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ESTJ 幹部 : <span class="mbti-num">70</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-3">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-3 ratio--20"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ESFJ 領事 : <span class="mbti-num">20</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-4">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-4 ratio--30"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ISTP 巨匠 : <span class="mbti-num">30</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-4">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-4 ratio--28"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ISFP 冒険家 : <span class="mbti-num">28</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-4">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-4 ratio--3"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span>ESTP 起業家 : <span class="mbti-num">3</span></span>
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+
+                <div class="mbti-result mbti-set-4">
+                  <div class="mbti-container">
+                    <!-- ratio--{number %} -->
+                    <div class="mbti-bar mbti-bar-4 ratio--30"></div>
+                  </div>
+                  <div class="mbti-info">
+                    <span
+                      >ESFP エンターテイナー :
+                      <span class="mbti-num">30</span></span
+                    >
+                    <!-- <i class="rank-1 animate-zoom-in"></i> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="comment-warp">
+        <div class="comment">
+          <h3>コメント</h3>
+          <div class="comments">
+            <div class="comments__main">
+              <div class="comments__main__message">
+                この人好きです！いいね押してください！
+              </div>
+              <div class="comments__main__feed">
+                <button class="like-feed"><i></i>3</button>
+                <button class="dislike-feed"><i></i>2</button>
+              </div>
+              <div class="comments__main__comment">
+                <button class="comment-btn">返信</button>
+                <button class="comment-btn"><span>3</span>コメント</button>
+              </div>
+            </div>
+            <div class="comments__sub">
+              <span class="notice"><a href="">通報</a></span>
+              <span class="date">2023. 11. 14</span>
+            </div>
+          </div>
+
+          <div class="comments">
+            <div class="comments__main">
+              <div class="comments__main__message">まあまあ、ふつうかな？</div>
+              <div class="comments__main__feed">
+                <button class="like-feed"><i></i>3</button>
+                <button class="dislike-feed"><i></i>2</button>
+              </div>
+              <div class="comments__main__comment">
+                <button class="comment-btn">返信</button>
+                <button class="comment-btn"><span>3</span>コメント</button>
+              </div>
+            </div>
+            <div class="comments__sub">
+              <span class="notice"><a href="">通報</a></span>
+              <span class="date">2023. 11. 14</span>
+            </div>
+          </div>
+
+          <div class="comments">
+            <div class="comments__main">
+              <div class="comments__main__message">このひと性格悪そう！</div>
+              <div class="comments__main__feed">
+                <button class="like-feed"><i></i>3</button>
+                <button class="dislike-feed"><i></i>2</button>
+              </div>
+              <div class="comments__main__comment">
+                <button class="comment-btn">返信</button>
+                <button class="comment-btn"><span>3</span>コメント</button>
+              </div>
+            </div>
+            <div class="comments__sub">
+              <span class="notice"><a href="">通報</a></span>
+              <span class="date">2023. 11. 14</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- view more -->
+        <a href="" class="link-more">
+          <i><img src="img/down-arrow2.svg" alt="" /></i>もっと見る
+        </a>
+
+        <div class="input-layout">
+          <div class="chat-input">
+            <textarea
+              rows="3"
+              placeholder="コメントを入力してください"
+              class="chat-textarea"
+            ></textarea>
+            <button class="btn-primary btn-send">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_15878_22164)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M14.3072 5.69288L7.7071 10.2753L0.803747 7.97383C0.321882 7.81288 -0.00275487 7.36078 1.76209e-05 6.85287C0.00282659 6.34496 0.331184 5.89563 0.81491 5.7403L18.4644 0.0565164C18.8839 -0.0783506 19.3444 0.0323301 19.6561 0.34398C19.9677 0.655629 20.0784 1.11608 19.9435 1.53564L14.2597 19.1851C14.1044 19.6688 13.6551 19.9972 13.1472 20C12.6392 20.0028 12.1871 19.6781 12.0262 19.1963L9.71361 12.2595L14.3072 5.69288Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_15878_22164">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="articles-warp">
+        <div class="articles">
+          <h2>Sexy Zone</h2>
+
+          <ul class="card__b articles-card">
+            <li>
+              <a href="">
+                <div class="profile-img">
+                  <img src="img/profile/1.jpg" alt="" />
+                </div>
+                <div class="profile-info">
+                  <h4>菊池風磨</h4>
+                  <span class="mbti-info">ENTJ 指揮官</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="profile-img">
+                  <img src="img/profile/2.jpg" alt="" />
+                </div>
+                <div class="profile-info">
+                  <h4>高橋文哉</h4>
+                  <span class="mbti-info">ENTJ 指揮官</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="profile-img">
+                  <img src="img/profile/3.jpg" alt="" />
+                </div>
+                <div class="profile-info">
+                  <h4>鈴鹿央士</h4>
+                  <span class="mbti-info">ENTJ 指揮官</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="profile-img">
+                  <img src="img/profile/4.jpg" alt="" />
+                </div>
+                <div class="profile-info">
+                  <h4>板垣 李光人</h4>
+                  <span class="mbti-info">ENTJ 指揮官</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="profile-img">
+                  <img src="img/profile/4.jpg" alt="" />
+                </div>
+                <div class="profile-info">
+                  <h4>板垣 李光人</h4>
+                  <span class="mbti-info">ENTJ 指揮官</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <h2>関連記事</h2>
+          <ul class="articles-news">
+            <li>
+              <a href="">
+                人気投票】SexyZoneメンバーランキング！みんなが好きなセクゾメンバーは？
+              </a>
+            </li>
+            <li>
+              <a href="">
+                セクゾ人気順ランキング最新2024！デビュー後変動したかも解説！
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container-fluid-dark">
+        <div class="picks">
+          <div class="people">
+            <h2>急上昇の有名人</h2>
+            <ul class="card__b tier">
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/1.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>菊池風磨</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/2.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>高橋文哉</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/3.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>鈴鹿央士</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/4.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>板垣 李光人</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!-- view more -->
+            <a href="" class="link-more v2">
+              <i><img src="img/down-arrow3.svg" alt="" /></i>もっと見る
+            </a>
+          </div>
+          <div class="group">
+            <h2>急上昇のグループ</h2>
+            <ul class="card__b tier">
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/1.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>菊池風磨</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/2.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>高橋文哉</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/3.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>鈴鹿央士</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/4.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>板垣 李光人</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!-- view more -->
+            <a href="" class="link-more v2">
+              <i><img src="img/down-arrow3.svg" alt="" /></i>もっと見る
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid-menu">
+        <div class="menu-footer__list">
+          <ul>
+            <li><a href="">俳優</a></li>
+            <li><a href="">女優</a></li>
+            <li><a href="">男性歌手</a></li>
+            <li><a href="">女性歌手</a></li>
+            <li><a href="">グループ</a></li>
+            <li><a href="">アニメキャラ</a></li>
+            <li><a href="">芸人</a></li>
+            <li><a href="">サッカー選手</a></li>
+            <li><a href="">作家</a></li>
+            <li><a href="">その他</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container-fluid-footer">
+        <div class="footer">
+          <h2>閲覧履歴</h2>
+          <div class="footer-history">
+            <ul class="card__b">
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/1.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>菊池風磨</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/2.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>高橋文哉</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/3.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>鈴鹿央士</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="profile-img">
+                    <img src="img/profile/4.jpg" alt="" />
+                  </div>
+                  <div class="profile-info">
+                    <h4>板垣 李光人</h4>
+                    <span class="mbti-info">ENTJ 指揮官</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-sitemap">
+          <div class="company-info">
+            <h1>
+              <a href="">
+                <img src="img/logo.svg" class="logo" alt="ㅈㅇㅅㄹ" />
+              </a>
+            </h1>
+            <div class="application">
+              <div class="application__link">
+                <a href="">有名人を追加申請<i class="icon-arrow-right"></i></a>
+              </div>
+              <div class="application__link">
+                <a href=""
+                  >グループを追加申請<i class="icon-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="company-info">
+            <div class="site-info">
+              <dl class="sitemap">
+                <dt>サイトマップ</dt>
+                <dd><a href="">トップ</a></dd>
+                <dd><a href="">性格ランキング</a></dd>
+                <dd><a href="">ジャンル</a></dd>
+                <dd><a href="">急上昇</a></dd>
+                <dd><a href="">MBTI</a></dd>
+              </dl>
+            </div>
+            <div class="site-info">
+              <dl class="sitemap">
+                <dt>サービスインフォ</dt>
+                <dd><a href="">プライバシーポリシー</a></dd>
+                <dd><a href="">利用規約</a></dd>
+                <dd><a href="">運営会社</a></dd>
+                <dd><a href="">お問い合わせ</a></dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="address">
+        Copyright ©SHIFTYPE.PLE.LTD. All Rights Reserved
+      </div>
+    </footer>
+    <script src="js/lang_pulldown.js"></script>
+    <script src="js/loading_bar.js"></script>
+  </body>
+</html>

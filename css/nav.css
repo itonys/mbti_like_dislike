@@ -1,0 +1,85 @@
+nav {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  width: 100%;
+  max-width: 1180px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 12px;
+  gap: 60px;
+  color: var(--gray02);
+  font-size: 1.6rem;
+  font-weight: 600;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav li {
+  padding: 16px 0 0 0;
+  height: 56px;
+}
+
+.nav li a:hover {
+  opacity: 0.8;
+}
+.nav li.on {
+  border-bottom: 4px solid var(--gray02);
+}
+
+.nav__sub {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1px;
+}
+
+.nav__sub ul {
+  width: 100%;
+  max-width: 1180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto;
+  padding: 0 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.nav__sub ul::-webkit-scrollbar {
+  display: none;
+}
+
+.nav__sub ul li {
+  padding: 10px 10px 0 10px;
+  font-size: 1.3rem;
+  color: var(--gray03);
+  font-weight: 600;
+  height: 40px;
+}
+
+.nav__sub ul li.on {
+  border-bottom: 3px solid var(--gray02);
+  color: var(--gray01);
+}
+
+.nav__sub ul li:hover {
+  color: var(--gray01);
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 0 12px;
+    gap: 30px;
+  }
+}

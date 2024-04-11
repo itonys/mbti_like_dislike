@@ -1,0 +1,40 @@
+.breadcrumb {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1px;
+}
+
+.breadcrumb .breadcrumb__menu {
+  width: 100%;
+  max-width: 1180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 0 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  font-size: 1.1rem;
+  color: var(--gray03);
+}
+
+.breadcrumb .breadcrumb__menu::-webkit-scrollbar {
+  display: none;
+}
+
+.breadcrumb .breadcrumb__menu .icon-arrow-right {
+  width: 8px;
+  height: 8px;
+  background-size: 100%;
+  background-image: url(../img/right-arrow.svg);
+}
+
+.breadcrumb .breadcrumb__menu a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .breadcrumb__menu .now {
+  color: var(--gray02);
+}
