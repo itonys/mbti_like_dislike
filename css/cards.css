@@ -139,13 +139,13 @@
   flex: 1 1 0%;
 }
 
-.card__a .profile-info h4 {
+.card__a .profile-info h3 {
   color: var(--gray02);
   font-size: 1.6rem;
   font-weight: 600;
 }
 
-.card__a .profile-info h4 .mbti-info {
+.card__a .profile-info h3 .mbti-info {
   color: var(--gray03);
   font-size: 1.2rem;
   font-weight: 400;

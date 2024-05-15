@@ -2,6 +2,7 @@
   background: var(--white);
   width: 100%;
   margin: 0 auto;
+  border-top: 1px solid var(--gray06);
 }
 
 .detail-warp .detail {
@@ -39,7 +40,7 @@
   margin-bottom: 10px;
 }
 
-.detail-warp .detail .detail__left .choice-area h3 {
+.detail-warp .detail .detail__left .choice-area h1 {
   color: var(--gray02);
   font-size: 1.6rem;
   font-weight: 600;
@@ -143,7 +144,7 @@
     0px 4px 8px 0px rgba(174, 174, 192, 0.2) inset;
 }
 
-.detail-warp .detail .detail__left .rank-result h3 {
+.detail-warp .detail .detail__left .rank-result h2 {
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--gray02);
@@ -272,7 +273,7 @@
   opacity: 1;
 }
 
-.detail-warp .detail .detail__right .check-mbti h3 {
+.detail-warp .detail .detail__right .check-mbti h2 {
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--gray02);
