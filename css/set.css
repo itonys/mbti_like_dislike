@@ -264,3 +264,1179 @@ hr {
   visibility: visible;
   opacity: 1;
 }
+
+/* loading-bar */
+.loading-container {
+  height: 60px;
+  background-color: var(--gray06);
+  position: relative;
+  margin-right: 40px;
+  border-radius: 8px;
+}
+
+.mbti-container {
+  width: 100%;
+  height: 8px;
+  background-color: var(--white);
+  position: relative;
+  border-radius: 8px;
+}
+
+.loading-bar {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.mbti-bar {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  border-radius: 8px;
+}
+
+.left-bar {
+  background-color: var(--red);
+  left: 0;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.left-bar span {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.right-bar {
+  background-color: var(--blue);
+  right: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.right-bar span {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+  .loading-container {
+    margin-right: 0;
+  }
+}
+
+.ratio--1 {
+  animation-name: ratio--1;
+}
+.ratio--2 {
+  animation-name: ratio--2;
+}
+.ratio--3 {
+  animation-name: ratio--3;
+}
+.ratio--4 {
+  animation-name: ratio--4;
+}
+.ratio--5 {
+  animation-name: ratio--5;
+}
+.ratio--6 {
+  animation-name: ratio--6;
+}
+.ratio--7 {
+  animation-name: ratio--7;
+}
+.ratio--8 {
+  animation-name: ratio--8;
+}
+.ratio--9 {
+  animation-name: ratio--9;
+}
+.ratio--10 {
+  animation-name: ratio--10;
+}
+.ratio--11 {
+  animation-name: ratio--11;
+}
+.ratio--12 {
+  animation-name: ratio--12;
+}
+.ratio--13 {
+  animation-name: ratio--13;
+}
+.ratio--14 {
+  animation-name: ratio--14;
+}
+.ratio--15 {
+  animation-name: ratio--15;
+}
+.ratio--16 {
+  animation-name: ratio--16;
+}
+.ratio--17 {
+  animation-name: ratio--17;
+}
+.ratio--18 {
+  animation-name: ratio--18;
+}
+.ratio--19 {
+  animation-name: ratio--19;
+}
+.ratio--20 {
+  animation-name: ratio--20;
+}
+.ratio--21 {
+  animation-name: ratio--21;
+}
+.ratio--22 {
+  animation-name: ratio--22;
+}
+.ratio--23 {
+  animation-name: ratio--23;
+}
+.ratio--24 {
+  animation-name: ratio--24;
+}
+.ratio--25 {
+  animation-name: ratio--25;
+}
+.ratio--26 {
+  animation-name: ratio--26;
+}
+.ratio--27 {
+  animation-name: ratio--27;
+}
+.ratio--28 {
+  animation-name: ratio--28;
+}
+.ratio--29 {
+  animation-name: ratio--29;
+}
+.ratio--30 {
+  animation-name: ratio--30;
+}
+.ratio--31 {
+  animation-name: ratio--31;
+}
+.ratio--32 {
+  animation-name: ratio--32;
+}
+.ratio--33 {
+  animation-name: ratio--33;
+}
+.ratio--34 {
+  animation-name: ratio--34;
+}
+.ratio--35 {
+  animation-name: ratio--35;
+}
+.ratio--36 {
+  animation-name: ratio--36;
+}
+.ratio--37 {
+  animation-name: ratio--37;
+}
+.ratio--38 {
+  animation-name: ratio--38;
+}
+.ratio--39 {
+  animation-name: ratio--39;
+}
+.ratio--40 {
+  animation-name: ratio--40;
+}
+.ratio--41 {
+  animation-name: ratio--41;
+}
+.ratio--42 {
+  animation-name: ratio--42;
+}
+.ratio--43 {
+  animation-name: ratio--43;
+}
+.ratio--44 {
+  animation-name: ratio--44;
+}
+.ratio--45 {
+  animation-name: ratio--45;
+}
+.ratio--46 {
+  animation-name: ratio--46;
+}
+.ratio--47 {
+  animation-name: ratio--47;
+}
+.ratio--48 {
+  animation-name: ratio--48;
+}
+.ratio--49 {
+  animation-name: ratio--49;
+}
+.ratio--50 {
+  animation-name: ratio--50;
+}
+.ratio--51 {
+  animation-name: ratio--51;
+}
+.ratio--52 {
+  animation-name: ratio--52;
+}
+.ratio--53 {
+  animation-name: ratio--53;
+}
+.ratio--54 {
+  animation-name: ratio--54;
+}
+.ratio--55 {
+  animation-name: ratio--55;
+}
+.ratio--56 {
+  animation-name: ratio--56;
+}
+.ratio--57 {
+  animation-name: ratio--57;
+}
+.ratio--58 {
+  animation-name: ratio--58;
+}
+.ratio--59 {
+  animation-name: ratio--59;
+}
+.ratio--60 {
+  animation-name: ratio--60;
+}
+.ratio--61 {
+  animation-name: ratio--61;
+}
+.ratio--62 {
+  animation-name: ratio--62;
+}
+.ratio--63 {
+  animation-name: ratio--63;
+}
+.ratio--64 {
+  animation-name: ratio--64;
+}
+.ratio--65 {
+  animation-name: ratio--65;
+}
+.ratio--66 {
+  animation-name: ratio--66;
+}
+.ratio--67 {
+  animation-name: ratio--67;
+}
+.ratio--68 {
+  animation-name: ratio--68;
+}
+.ratio--69 {
+  animation-name: ratio--69;
+}
+.ratio--70 {
+  animation-name: ratio--70;
+}
+.ratio--71 {
+  animation-name: ratio--71;
+}
+.ratio--72 {
+  animation-name: ratio--72;
+}
+.ratio--73 {
+  animation-name: ratio--73;
+}
+.ratio--74 {
+  animation-name: ratio--74;
+}
+.ratio--75 {
+  animation-name: ratio--75;
+}
+.ratio--76 {
+  animation-name: ratio--76;
+}
+.ratio--77 {
+  animation-name: ratio--77;
+}
+.ratio--78 {
+  animation-name: ratio--78;
+}
+.ratio--79 {
+  animation-name: ratio--79;
+}
+.ratio--80 {
+  animation-name: ratio--80;
+}
+.ratio--81 {
+  animation-name: ratio--81;
+}
+.ratio--82 {
+  animation-name: ratio--82;
+}
+.ratio--83 {
+  animation-name: ratio--83;
+}
+.ratio--84 {
+  animation-name: ratio--84;
+}
+.ratio--85 {
+  animation-name: ratio--85;
+}
+.ratio--86 {
+  animation-name: ratio--86;
+}
+.ratio--87 {
+  animation-name: ratio--87;
+}
+.ratio--88 {
+  animation-name: ratio--88;
+}
+.ratio--89 {
+  animation-name: ratio--89;
+}
+.ratio--90 {
+  animation-name: ratio--90;
+}
+.ratio--91 {
+  animation-name: ratio--91;
+}
+.ratio--92 {
+  animation-name: ratio--92;
+}
+.ratio--93 {
+  animation-name: ratio--93;
+}
+.ratio--94 {
+  animation-name: ratio--94;
+}
+.ratio--95 {
+  animation-name: ratio--95;
+}
+.ratio--96 {
+  animation-name: ratio--96;
+}
+.ratio--97 {
+  animation-name: ratio--97;
+}
+.ratio--98 {
+  animation-name: ratio--98;
+}
+.ratio--99 {
+  animation-name: ratio--99;
+}
+.ratio--100 {
+  animation-name: ratio--100;
+}
+
+@keyframes ratio--1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 1%;
+  }
+}
+@keyframes ratio--2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 2%;
+  }
+}
+@keyframes ratio--3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 3%;
+  }
+}
+@keyframes ratio--4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 4%;
+  }
+}
+@keyframes ratio--5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 5%;
+  }
+}
+@keyframes ratio--6 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 6%;
+  }
+}
+@keyframes ratio--7 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 7%;
+  }
+}
+@keyframes ratio--8 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 8%;
+  }
+}
+@keyframes ratio--9 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 9%;
+  }
+}
+@keyframes ratio--10 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+@keyframes ratio--11 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 11%;
+  }
+}
+@keyframes ratio--12 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 12%;
+  }
+}
+@keyframes ratio--13 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 13%;
+  }
+}
+@keyframes ratio--14 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 14%;
+  }
+}
+@keyframes ratio--15 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 15%;
+  }
+}
+@keyframes ratio--16 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 16%;
+  }
+}
+@keyframes ratio--17 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 17%;
+  }
+}
+@keyframes ratio--18 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 18%;
+  }
+}
+@keyframes ratio--19 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 19%;
+  }
+}
+@keyframes ratio--20 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
+@keyframes ratio--21 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 21%;
+  }
+}
+@keyframes ratio--22 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 22%;
+  }
+}
+@keyframes ratio--23 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 23%;
+  }
+}
+@keyframes ratio--24 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 24%;
+  }
+}
+@keyframes ratio--25 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25%;
+  }
+}
+@keyframes ratio--26 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 26%;
+  }
+}
+@keyframes ratio--27 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 27%;
+  }
+}
+@keyframes ratio--28 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 28%;
+  }
+}
+@keyframes ratio--29 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 29%;
+  }
+}
+@keyframes ratio--30 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+@keyframes ratio--31 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 31%;
+  }
+}
+@keyframes ratio--32 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 32%;
+  }
+}
+@keyframes ratio--33 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 33%;
+  }
+}
+@keyframes ratio--34 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 34%;
+  }
+}
+@keyframes ratio--35 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+@keyframes ratio--36 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 36%;
+  }
+}
+@keyframes ratio--37 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 37%;
+  }
+}
+@keyframes ratio--38 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 38%;
+  }
+}
+@keyframes ratio--39 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 39%;
+  }
+}
+@keyframes ratio--40 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+@keyframes ratio--41 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 41%;
+  }
+}
+@keyframes ratio--42 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 42%;
+  }
+}
+@keyframes ratio--43 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 43%;
+  }
+}
+@keyframes ratio--44 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 44%;
+  }
+}
+@keyframes ratio--45 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+@keyframes ratio--46 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 46%;
+  }
+}
+@keyframes ratio--47 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 47%;
+  }
+}
+@keyframes ratio--48 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 48%;
+  }
+}
+@keyframes ratio--49 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 49%;
+  }
+}
+@keyframes ratio--50 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes ratio--51 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 51%;
+  }
+}
+@keyframes ratio--52 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 52%;
+  }
+}
+@keyframes ratio--53 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 53%;
+  }
+}
+@keyframes ratio--54 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 54%;
+  }
+}
+@keyframes ratio--55 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+@keyframes ratio--56 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 56%;
+  }
+}
+@keyframes ratio--57 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 57%;
+  }
+}
+@keyframes ratio--58 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 58%;
+  }
+}
+@keyframes ratio--59 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 59%;
+  }
+}
+@keyframes ratio--60 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes ratio--61 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 61%;
+  }
+}
+@keyframes ratio--62 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 62%;
+  }
+}
+@keyframes ratio--63 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 63%;
+  }
+}
+@keyframes ratio--64 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 64%;
+  }
+}
+@keyframes ratio--65 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+@keyframes ratio--66 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 66%;
+  }
+}
+@keyframes ratio--67 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 67%;
+  }
+}
+@keyframes ratio--68 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 68%;
+  }
+}
+@keyframes ratio--69 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 69%;
+  }
+}
+@keyframes ratio--70 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes ratio--71 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 71%;
+  }
+}
+@keyframes ratio--72 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 72%;
+  }
+}
+@keyframes ratio--73 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 73%;
+  }
+}
+@keyframes ratio--74 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 74%;
+  }
+}
+@keyframes ratio--75 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes ratio--76 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 76%;
+  }
+}
+@keyframes ratio--77 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 77%;
+  }
+}
+@keyframes ratio--78 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 78%;
+  }
+}
+@keyframes ratio--79 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 79%;
+  }
+}
+@keyframes ratio--80 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes ratio--81 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 81%;
+  }
+}
+@keyframes ratio--82 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 82%;
+  }
+}
+@keyframes ratio--83 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 83%;
+  }
+}
+@keyframes ratio--84 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 84%;
+  }
+}
+@keyframes ratio--85 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes ratio--86 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 86%;
+  }
+}
+@keyframes ratio--87 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 87%;
+  }
+}
+@keyframes ratio--88 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 88%;
+  }
+}
+@keyframes ratio--89 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 89%;
+  }
+}
+@keyframes ratio--90 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes ratio--91 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 91%;
+  }
+}
+@keyframes ratio--92 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 92%;
+  }
+}
+@keyframes ratio--93 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 93%;
+  }
+}
+@keyframes ratio--94 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 94%;
+  }
+}
+@keyframes ratio--95 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes ratio--96 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 96%;
+  }
+}
+@keyframes ratio--97 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 97%;
+  }
+}
+@keyframes ratio--98 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 98%;
+  }
+}
+@keyframes ratio--99 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 99%;
+  }
+}
+@keyframes ratio--100 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
