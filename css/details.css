@@ -718,12 +718,16 @@
   align-items: end;
   justify-content: space-between;
   gap: 30px;
+  position: relative;
 }
 .comments__sub .notice,
 .comments__sub .date {
   color: var(--gray03);
   font-weight: 400;
   font-size: 1.3rem;
+  background: none;
+  padding: 0;
+  margin: 0;
 }
 
 .input-layout {
@@ -795,4 +799,87 @@
 .btn-send:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.detail-deploy {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  right: 320px;
+  width: 100%;
+  max-width: 320px;
+  -webkit-animation: slideInFade 0.3s ease-in;
+  animation: slideInFade 0.3s ease-in;
+  border-radius: 5px;
+  padding: 24px 20px;
+  background: var(--white);
+  -webkit-box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.detail-deploy .deploy-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.detail-deploy .deploy-layout h4 {
+  color: var(--gray02);
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0 0 10px 0;
+}
+
+.detail-deploy .deploy-layout p {
+  color: var(--gray02);
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 0 0 10px 0;
+}
+
+.detail-deploy .deploy-layout .warn-btn {
+  background-color: var(--gray02);
+  color: var(--white);
+  padding: 10px 0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.detail-deploy .deploy-layout .warn-btn:hover {
+  background-color: var(--gray01);
+}
+
+.detail-deploy .deploy-layout .cancel-btn {
+  background-color: var(--gray08);
+  color: var(--gray01);
+  padding: 10px 0;
+  border-radius: 8px;
+}
+
+.detail-deploy .deploy-layout .cancel-btn:hover {
+  background-color: var(--gray07);
 }

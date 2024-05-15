@@ -451,6 +451,18 @@
         <div class="comment">
           <h3>コメント</h3>
           <div class="comments">
+            <!-- hidden area : display:none -->
+            <div class="overlay">
+              <div class="detail-deploy">
+                <div class="deploy-layout">
+                  <h4>コメントを通報</h4>
+                  <p>このコメントを通報しますか？</p>
+                  <button class="warn-btn">通報する</button>
+                  <button class="cancel-btn">やめる</button>
+                </div>
+              </div>
+            </div>
+            <!-- end .warning-dialog  -->
             <div class="comments__main">
               <div class="comments__main__message">
                 この人好きです！いいね押してください！
@@ -465,7 +477,7 @@
               </div>
             </div>
             <div class="comments__sub">
-              <span class="notice"><a href="">通報</a></span>
+              <button class="notice setWarning">通報</button>
               <span class="date">2023. 11. 14</span>
             </div>
           </div>
@@ -483,7 +495,7 @@
               </div>
             </div>
             <div class="comments__sub">
-              <span class="notice"><a href="">通報</a></span>
+              <button class="notice setWarning">通報</button>
               <span class="date">2023. 11. 14</span>
             </div>
           </div>
@@ -501,7 +513,7 @@
               </div>
             </div>
             <div class="comments__sub">
-              <span class="notice"><a href="">通報</a></span>
+              <button class="notice setWarning">通報</button>
               <span class="date">2023. 11. 14</span>
             </div>
           </div>
@@ -860,5 +872,6 @@
     </footer>
 
     <script src="js/lang_pulldown.js"></script>
+    <script src="js/warning_dialog.js"></script>
   </body>
 </html>
