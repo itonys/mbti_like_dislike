@@ -9,12 +9,12 @@ iconSearch.addEventListener('click', () => {
     searchModal.classList.remove('show');
     setTimeout(() => {
       searchModal.style.display = 'none';
-    }, 300); // 애니메이션 시간에 맞춰서 조정
+    }, 300);
   } else {
     searchModal.style.display = 'flex';
     setTimeout(() => {
       searchModal.classList.add('show');
-    }, 10); // 약간의 지연을 주어 display: block이 적용되도록 함
+    }, 10);
   }
 });
 
@@ -27,7 +27,7 @@ document.addEventListener('click', (event) => {
     setTimeout(() => {
       searchModal.classList.remove('show', 'hide');
       searchModal.style.display = 'none';
-    }, 300); // 애니메이션 시간에 맞춰서 조정
+    }, 300);
   }
 });
 
@@ -36,5 +36,5 @@ closeBtn.addEventListener('click', () => {
   setTimeout(() => {
     searchModal.classList.remove('show', 'hide');
     searchModal.style.display = 'none';
-  }, 300); // 애니메이션 시간에 맞춰서 조정
+  }, 300);
 });
