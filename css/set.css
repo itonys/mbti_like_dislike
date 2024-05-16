@@ -1440,3 +1440,122 @@ hr {
     width: 100%;
   }
 }
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 600px;
+  border-top: 1px solid var(--gray06);
+  padding: 0 12px;
+}
+
+.form h3 {
+  display: flex;
+}
+
+.form .form-title {
+  font-size: 1.8rem;
+  color: var(--gray01);
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.form .form-inner {
+  width: 100%;
+  max-width: 480px;
+}
+
+@media screen and (max-width: 576px) {
+  .form .form-inner {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+.form .form-inner .label-title {
+  font-size: 1.4rem;
+  color: var(--gray02);
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.form .form-inner .form-textfiled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.form .form-inner .form-textfiled .form-filed {
+  background-color: var(--white);
+  border: 1px solid var(--gray05);
+  font-size: 1.4rem;
+  color: var(--gray01);
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.form .form-inner .form-textfiled .form-textarea {
+  background-color: var(--white);
+  border: 1px solid var(--gray05);
+  font-size: 1.4rem;
+  color: var(--gray01);
+  width: 100%;
+  height: 200px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.form .form-inner .form-textfiled .form-filed:focus,
+.form .form-inner .form-textfiled .form-filed:active {
+  outline: 0.5px solid var(--gray05);
+}
+
+.form .form-inner .form-textfiled .form-textarea:focus,
+.form .form-inner .form-textfiled .form-textarea:active {
+  outline: 0.5px solid var(--gray05);
+}
+
+.form .form-inner .error {
+  color: var(--red);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.form-filed::placeholder,
+.form-textarea::placeholder {
+  color: var(--gray05);
+  font-weight: 600;
+}
+
+.form .btn-submit {
+  border-radius: 8px;
+  width: 100%;
+  height: 40px;
+  background-color: var(--gray02);
+  color: var(--white);
+}
+
+.form .btn-submit:hover {
+  background-color: var(--gray01);
+}
